@@ -1,4 +1,6 @@
 import express from 'express'
+import cors from 'cors'
+import path from 'path'
 
 import routes from './routes'
 
@@ -14,10 +16,12 @@ class App {
 
   private middlewares () {
     this.express.use(express.json())
+    this.express.use(cors())
   }
 
   private routes () {
     this.express.use(routes)
+    this.express.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads')))
   }
 }
 
