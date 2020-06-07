@@ -1,0 +1,4 @@
+*.sqlite
+
+uploads/*.png
+uploads/*.jpg
