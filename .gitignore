@@ -1,3 +1,7 @@
+*.sqlite
+server/uploads/*.png
+server/uploads/*.jpg
+
 # Logs
 logs
 *.log
