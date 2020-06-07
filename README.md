@@ -1,2 +1,2 @@
 # Next-Level-Week
- RocketSeat's Next Level Week Course
+ RocketSeat's "Next Level Week" Course
