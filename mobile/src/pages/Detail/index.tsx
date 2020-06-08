@@ -75,7 +75,7 @@ const Detail = () => {
 
         <View style={styles.address}>
           <Text style={styles.addressTitle}>Endereço</Text>
-          <Text style={styles.addressContent}>Rio do Sul, SC</Text>
+          <Text style={styles.addressContent}>{data.point.city}, {data.point.uf}</Text>
         </View>
       </View>
       <View style={styles.footer}>

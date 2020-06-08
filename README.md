@@ -15,5 +15,8 @@ Start with `yarn start`
 
 Mobile folder => `yarn`<br />
 Replace the 5th line of `mobile\src\services\api.ts`, put the IP address and PORT of your server.<br />
+You need expo-cli installed globally `yarn add expo-cli --global`.
 Start with `yarn start`
 Open Expo app in your smartphone and scan the QR code.
+
+Your network connection should be set to public and the server should be running at the same network as the smartphone.
